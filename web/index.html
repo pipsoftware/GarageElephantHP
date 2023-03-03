@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Garage Elephant</title>
+
+<style>
+body {
+padding: 0;
+margin: 0;
+}
+
+.navbar {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 80%;
+align-items: center;
+}
+
+nav {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+
+background-color: #6fa8cf;
+}
+
+.navbar li {
+list-style-type: none;
+}
+
+.navbar li a {
+text-decoration: none;
+font-family: sans-serif;
+color: white;
+}
+
+.logo {
+background-color: red;
+width: 20%;
+}
+
+main h1 {
+width: fit-content;
+font-family: sans-serif;
+margin: 20px auto;
+}
+
+main h2 {
+width: fit-content;
+font-family: sans-serif;
+margin-left: 50px;
+}
+
+.featured-items {
+width: 80%;
+margin: 0 auto;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.item-box {
+list-style-type: none;
+width: 20%;
+border: 1px solid grey;
+font-family: sans-serif;
+padding: 10px;
+}
+
+.item-image {
+width: 100%;
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<img
+class="logo"
+src="images/Garage Elephant-logos_transparent.png"
+alt="Garage Elephant Logo"
+/>
+
+<ul class="navbar">
+<li><a href="#">HOME</a></li>
+<li><a href="#">SELL</a></li>
+<li><a href="#">ACCOUNT</a></li>
+<li><a href="#">MESSAGE</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h1>Welcome to Garage Elephant</h1>
+
+<h2>Featured Items</h2>
+<ul class="featured-items">
+<li class="item-box">
+<a href="https://www.google.com" target="_blank">
+<img
+class="item-image"
+src="https://greendroprecycling.com/wp-content/uploads/2017/04/GreenDrop_Station_Aluminum_Can_1.jpg"
+alt="Item 1"
+/>
+</a>
+<h3>Item 1</h3>
+<p>Description of item 1</p>
+</li>
+<li class="item-box">
+<a href="#" target="_blank">
+<img
+class="item-image"
+src="https://greendroprecycling.com/wp-content/uploads/2017/04/GreenDrop_Station_Aluminum_Can_1.jpg"
+alt="Item 1"
+/>
+</a>
+<h3>Item 2</h3>
+<p>Description of item 2</p>
+</li>
+<li class="item-box">
+<a href="#" target="_blank">
+<img
+class="item-image"
+src="https://greendroprecycling.com/wp-content/uploads/2017/04/GreenDrop_Station_Aluminum_Can_1.jpg"
+alt="Item 1"
+/>
+</a>
+<h3>Item 3</h3>
+<p>Description of item 3</p>
+</li>
+</ul>
+</main>
+</body>
+</html>
